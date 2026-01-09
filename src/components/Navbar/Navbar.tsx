@@ -48,7 +48,7 @@ const Navbar = () => {
           />
         </div>
 
-        <ul className="hidden md:flex gap-8 text-sm font-semibold">
+        <ul className="hidden md:flex gap-8 text-[12px]">
           {NavLink.map((link) => {
             const section = link.href.replace("#", "");
 
@@ -56,7 +56,7 @@ const Navbar = () => {
               <li key={link.id}>
                 <div className="relative flex flex-col gap-1 justify-center items-center group cursor-pointer">
                   <div
-                    className={`w-[6px] h-[6px] transition-colors rounded-full absolute top-[-10px]
+                    className={`w-[5px] h-[5px] transition-colors rounded-full absolute top-[-10px]
     ${
       activeSection === section
         ? "bg-blue-500"
@@ -67,10 +67,10 @@ const Navbar = () => {
 
                   <a
                     href={link.href}
-                    className={`uppercase transition-colors
+                    className={`uppercase transition-colors hover:font-semibold tracking-wider
     ${
       activeSection === section
-        ? "text-blue-500"
+        ? "text-blue-500 font-semibold"
         : "text-gray-600 dark:text-white group-hover:text-blue-500"
     }
   `}

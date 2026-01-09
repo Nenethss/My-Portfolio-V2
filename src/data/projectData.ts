@@ -21,7 +21,7 @@ export const projectsData = [
       "My portfolio website , created using ReactJS and TailwindCSS.",
     image: portfolio,
     link: "https://nenethss.github.io/KennethSanPedro/",
-    codelink: "https://nenethss.github.io/KennethSanPedro/",
+    codelink: "https://github.com/Nenethss/My-Portfolio-V2",
     date: "December 23, 2025",
   },
   {
@@ -33,7 +33,7 @@ export const projectsData = [
     image: taytay,
     link: "https://taytay-marketplace.netlify.app/",
     codelink: "https://github.com/Nenethss/taytay-marketplace",
-    date: "December 23, 2025",
+    date: "March 15, 2025",
   },
   {
     id: 3,
@@ -44,6 +44,6 @@ export const projectsData = [
     image: guideurself,
     link: "https://guideurself.com/",
     codelink: "https://github.com/Nenethss/guideurself",
-    date: "December 23, 2025",
+    date: "September 18, 2025",
   },
 ];
